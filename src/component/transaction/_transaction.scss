@@ -1,0 +1,45 @@
+.transaction {
+  margin-top: 20px;
+
+  &__block {
+    &--input {
+      width: 100%;
+      padding: 10px 15px;
+      border-radius: 10px;
+      font-size: 16px;
+      outline: none;
+      border: 1px solid #e4e8e9;
+      background-color: #e4e8e9;
+      margin-top: 10px;
+    }
+  }
+  &__list {
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    &--description {
+      text-transform: capitalize;
+    }
+  }
+}
+
+.border-green {
+  border: 1px solid #e4e8e9;
+  border-right: 3px solid green;
+}
+
+.border-red {
+  border: 1px solid #e4e8e9;
+  border-right: 3px solid red;
+}
+
+.font-red {
+  color: red;
+}
+
+.font-green {
+  color: green;
+}

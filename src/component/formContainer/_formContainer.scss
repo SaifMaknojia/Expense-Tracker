@@ -1,0 +1,22 @@
+.form-container {
+  margin-top: 20px;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    &--balance {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    &--button {
+      background: black;
+      color: white;
+      padding: 8px 10px;
+      border: black;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  }
+}

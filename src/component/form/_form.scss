@@ -1,0 +1,52 @@
+/* Form css starts below */
+.form {
+  &__input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    border: 1px solid #e6e8e9;
+    border-radius: 10px;
+    padding: 15px 20px;
+
+    &--amount {
+      margin: 10px 0;
+      border: 1px solid #e6e8e9;
+    }
+    &--description {
+      margin-bottom: 10px;
+      border: 1px solid #e6e8e9;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.common-height {
+  padding: 10px 15px;
+  outline: none;
+}
+
+.radio-buttons {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  &__expense {
+    margin-right: 10px;
+    border: 1px solid #e6e8e9;
+    color: black;
+  }
+  &__income {
+    margin: 0 10px;
+  }
+}
+
+.add-transaction {
+  background: black;
+  color: white;
+  padding: 8px 10px;
+  border: black;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 15px auto 1px auto;
+  border-radius: 5px;
+}
